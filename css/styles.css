@@ -1,0 +1,128 @@
+body{
+  /* background-size: cover;
+  background-position: 0px 100px;
+  background-repeat: no-repeat; */
+  background: white;
+	font-family: lato, Graphik, Arial, sans-serif;
+  font-size:24px;
+  font-weight:300px;
+  cursor: pointer;
+  margin: 0;
+  padding:0;
+}
+
+/* body, button, input, select, textarea {
+font-family: Graphik, Arial, sans-serif;
+font-weight: :300px;
+} */
+
+header{
+ /* background: #C2C5CC;*/
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* .hero{
+  height:400px;
+} */
+
+
+/* .hero {
+  background-repeat: no-repeat;
+  background-image: url("../images/wine.jpg");
+  background-size: 100%;
+  background-position: center;
+  width:100%;
+  height: 100%;
+} */
+
+.top-middle{
+  /* background: white; */
+  color: gray;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.top-middle figure{
+  /* background: #849bb6; */
+  margin: auto;
+  width: 300px;
+  text-align: center;
+}
+
+.top-middle figure img{
+  width:300px;
+  border-radius: 50%;
+  box-shadow: gray 0 0 10px;
+}
+
+h1, h2, h3{
+	font-weight: 700;
+	font-size: 5em;
+	color:#6a747b;;
+  text-align:center;
+}
+
+p{
+  color:black;
+  text-align: justify;
+}
+
+header .logo{
+  /* background-image: url("images/logo.png"); */
+  color:#333;
+  font-size: 30px;
+  font-weight:700;
+  text-transform: uppercase;
+}
+
+header .logo span{
+  /* color:#78ff00; */
+  color:#ff000d;
+  /* #ff0056 */
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  display: inline-block;
+  /* display:inline; */
+}
+
+.navbar li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: red;
+  color: white;
+}
+.navbar li a:active{
+  background-color:red;
+}
+
+/* ul{
+  list-style-image:url("images/small-cup.gif");
+
+} */
+
+
+footer{
+  background: black;
+  padding: 10px 20px;
+  outline-style: none;
+  outline-width: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+}
